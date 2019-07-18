@@ -1,22 +1,14 @@
-arr=[1,2,3];
 
-console.log(arr);
-
-Array.prototype.myeach=function(cback){
+Array.prototype.myEach=function(cback){
     for(let i=0;i<this.length;i++){
         cback(this[i]);
     }
 }
-
-myeach = function(arr,cback){
+myEach = function(arr,cback){
     for(let i=0;i<arr.length;i++){
         cback(arr[i]);
     }
 }
-
-arr.myeach(function(ele){
-    console.log(ele);
-})
 
 Array.prototype.myMap = function(cback){
     arr2=this;
@@ -135,4 +127,50 @@ myReduce = function(arr, cback){
         sum = cback(sum, arr[i]);
     }
     return sum;
+}
+
+Array.prototype.myReduce = function(cback){
+    let sum=0;
+    for(let i=0;i<this.length;i++){
+        sum = cback(sum, this[i]);
+    }
+    return sum;
+}
+myReduce = function(arr, cback){
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum = cback(sum, arr[i]);
+    }
+    return sum;
+}
+
+
+Object.grabKeys = function(obj){
+    let arr = [];
+    for(let key in obj){
+        arr.push(key);
+    }
+    return arr;
+}
+grabKeys = function(obj){
+    let arr = [];
+    for(let key in obj){
+        arr.push(key);
+    }
+    return arr;
+}
+
+Object.grabValues = function(obj){
+    let arr = [];
+    for(let key in obj){
+        arr.push(obj[key]);
+    }
+    return arr;
+}
+grabValues = function(obj){
+    let arr = [];
+    for(let key in obj){
+        arr.push(obj[key]);
+    }
+    return arr;
 }
