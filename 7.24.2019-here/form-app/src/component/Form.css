@@ -1,0 +1,31 @@
+button {
+  margin: 5px;
+  background-color: rgb(64, 228, 132);
+  border-radius: 10px;
+  padding: 5px 20px;
+  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.info {
+  margin: 8px 10px;
+  border-color: black solid;
+  /* background-color: black; */
+  height: 20px;
+  font-weight: 600;
+  text-shadow: 0 0 30px rgb(223, 0, 0);
+  /* transition: all 0.8 ease-in-out; */
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px 3px;
+}
+
+.inputBox {
+  /* background-color: black; */
+  margin-top: 20px;
+}
