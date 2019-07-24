@@ -1,0 +1,51 @@
+.home {
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 120px;
+  height: 60px;
+  margin: 3px;
+  padding: 0;
+  background-color: rgb(212, 179, 179);
+  display: flex;
+  /* font-weight: bold; */
+}
+
+.path {
+  /* padding: 1px; */
+  border-radius: 8px;
+  display: flex;
+  width: 600px;
+  background-color: blanchedalmond;
+  justify-content: left;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.folder {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  /* font-size: 18px; */
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.togo {
+  background-color: blanchedalmond;
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(212, 179, 179);
+}
+
+.file {
+  color: rgb(99, 78, 78);
+}
